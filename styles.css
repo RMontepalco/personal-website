@@ -1,0 +1,41 @@
+header {
+	background-image: url(./images/coding.jpg);
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+}
+
+#gridHeader {
+	display: grid;
+	grid-template-rows: auto auto;
+	padding: 50px;
+}
+
+#pfp {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+#headerName {
+	font-family: Segoe UI;
+	color: white;
+}
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+
+#gridInfo {
+	display: grid;
+	grid-template-rows: auto auto auto;
+}
+
+#infoOdd {
+	background-color: gray;
+}
+#infoEven {
+	background-color: white;
+}
