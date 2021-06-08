@@ -1,14 +1,18 @@
 header {
 	background-image: url(./images/coding.jpg);
 	background-size: cover;
-	height: 500px;
+	height: 375px;
 	text-align: center;
 }
 
 #gridHeader {
 	display: grid;
-	grid-template-rows: auto auto;
+	grid-template-columns: auto auto;
 	padding: 50px;
+}
+
+#gridPFP {
+	text-align: right;
 }
 
 #pfp {
@@ -17,25 +21,70 @@ header {
 	border-radius: 50%;
 }
 
+#greeting {
+	font-family: Segoe UI;
+	color: rgb(255, 235, 133);
+	text-align: left;
+	position: relative;
+	top: 20px;
+}
+
 #headerName {
 	font-family: Segoe UI;
 	color: white;
+	text-align: left;
+}
+
+#summary {
+	font-family: Segoe UI;
+	color: rgb(200, 200, 200);
+	font-size: 18px;
+	text-align: left;
+}
+
+#butt {
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: Segoe UI;
+	font-size: 18px;
+	color: rgb(255, 235, 133);
+	
 }
 
 body {
-	background-color: black;
-	margin: 0;
+	background-color: gray;
+	margin: 0px;
 }
 
 
 #gridInfo {
 	display: grid;
-	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
 }
 
-#infoOdd {
-	background-color: gray;
+#infoBox {
+	background-color: black;
+	padding-left: 60px;
+	padding-right: 60px;
 }
-#infoEven {
-	background-color: white;
+
+#imageBox {
+	background-color: black;
+}
+
+#blank {
+	width: 350px;
+	height: 250px;
+	padding: 60px;
+}
+
+#subheading {
+	font-family: Segoe UI;
+	color: rgb(255, 235, 133);
+}
+
+#description {
+	font-family: Segoe UI;
+	color: white;
+	font-size: 18px;
 }
