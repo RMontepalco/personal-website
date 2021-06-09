@@ -1,7 +1,8 @@
+/* Header  */
 header {
 	background-image: url(./images/coding.jpg);
 	background-size: cover;
-	height: 375px;
+	height: fit-content;
 	text-align: center;
 }
 
@@ -22,7 +23,7 @@ header {
 }
 
 #greeting {
-	font-family: Segoe UI;
+	font-family: Arial;
 	color: rgb(255, 235, 133);
 	text-align: left;
 	position: relative;
@@ -30,13 +31,13 @@ header {
 }
 
 #headerName {
-	font-family: Segoe UI;
+	font-family: Arial;
 	color: white;
 	text-align: left;
 }
 
 #summary {
-	font-family: Segoe UI;
+	font-family: Arial;
 	color: rgb(200, 200, 200);
 	font-size: 18px;
 	text-align: left;
@@ -45,31 +46,45 @@ header {
 #butt {
 	border: none;
 	background-color: rgba(0, 0, 0, 0);
-	font-family: Segoe UI;
+	font-family: Arial;
 	font-size: 18px;
 	color: rgb(255, 235, 133);
 	
 }
 
+/* Body  */
 body {
-	background-color: gray;
+	background-color: black;
 	margin: 0px;
 }
 
-
-#gridInfo {
+/* Info Container  */
+#infoContainer {
 	display: grid;
 	grid-template-columns: auto auto;
 }
 
 #infoBox {
-	background-color: black;
+	background-color: rgb(30, 30, 30);
 	padding-left: 60px;
-	padding-right: 60px;
 }
 
 #imageBox {
-	background-color: black;
+	background-color: rgb(30, 30, 30);
+	padding-right: 60px;
+}
+
+@media screen and (min-width: 1600px) {
+	#infoBox {
+		background-color: black;
+		padding-left: 300px;
+		padding-right: 60px;
+	}
+
+	#imageBox {
+		background-color: black;
+		padding-right: 300px;
+	}
 }
 
 #blank {
@@ -79,12 +94,12 @@ body {
 }
 
 #subheading {
-	font-family: Segoe UI;
+	font-family: Arial;
 	color: rgb(255, 235, 133);
 }
 
 #description {
-	font-family: Segoe UI;
+	font-family: Arial;
 	color: white;
 	font-size: 18px;
 }
