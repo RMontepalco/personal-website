@@ -17,8 +17,8 @@ header {
 }
 
 #pfp {
-	width: 250px;
-	height: 250px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 }
 
@@ -74,19 +74,6 @@ body {
 	padding-right: 60px;
 }
 
-@media screen and (min-width: 1600px) {
-	#infoBox {
-		background-color: black;
-		padding-left: 300px;
-		padding-right: 60px;
-	}
-
-	#imageBox {
-		background-color: black;
-		padding-right: 300px;
-	}
-}
-
 #blank {
 	width: 350px;
 	height: 250px;
@@ -102,4 +89,23 @@ body {
 	font-family: Arial;
 	color: white;
 	font-size: 18px;
+}
+
+@media screen and (min-width: 1600px) {
+	#pfp {
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+	}
+
+	#infoBox {
+		background-color: rgb(30, 30, 30);
+		padding-left: 300px;
+		padding-right: 60px;
+	}
+
+	#imageBox {
+		background-color: rgb(30, 30, 30);
+		padding-right: 300px;
+	}
 }
