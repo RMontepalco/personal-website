@@ -20,6 +20,7 @@ header {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
+	padding-top: 20px;
 }
 
 #greeting {
@@ -96,6 +97,7 @@ body {
 		width: 250px;
 		height: 250px;
 		border-radius: 50%;
+		padding-top: 0px;
 	}
 
 	#infoBox {
