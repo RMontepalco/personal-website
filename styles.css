@@ -1,62 +1,45 @@
-/* Header  */
-header {
-	background-image: url(./images/coding.jpg);
-	background-size: cover;
-	height: fit-content;
-	text-align: center;
-}
-
-#gridHeader {
-	display: grid;
-	grid-template-columns: auto auto;
-	padding: 50px;
-}
-
-#gridPFP {
-	text-align: right;
-}
-
-#pfp {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	padding-top: 20px;
-}
-
-#greeting {
-	font-family: Arial;
-	color: rgb(255, 235, 133);
-	text-align: left;
-	position: relative;
-	top: 20px;
-}
-
-#headerName {
-	font-family: Arial;
-	color: white;
-	text-align: left;
-}
-
-#summary {
-	font-family: Arial;
-	color: rgb(200, 200, 200);
-	font-size: 18px;
-	text-align: left;
-}
-
-#butt {
-	border: none;
-	background-color: rgba(0, 0, 0, 0);
-	font-family: Arial;
-	font-size: 18px;
-	color: rgb(255, 235, 133);
-	
+* {
+	padding: 0px;
+	margin: 0px;
 }
 
 /* Body  */
 body {
 	background-color: black;
-	margin: 0px;
+	font-family: Arial;
+	color: white;
+	line-height: 1.75;
+}
+
+/* Header  */
+#landingPage {
+	background-image: url(./images/coding.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding:  0px 25px;
+}
+#landingPage img {
+	width: 200px;
+	height: 200px;
+}
+#landingPage h2 {
+	color: rgb(255, 235, 133);
+}
+#landingPage p {
+	color: rgb(128, 128, 128);
+}
+#landingPage .button {
+	text-decoration: none;
+	border: rgb(255, 235, 133) 2px solid;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
 }
 
 /* Info Container  */
@@ -82,32 +65,14 @@ body {
 }
 
 #subheading {
-	font-family: Arial;
 	color: rgb(255, 235, 133);
 }
 
 #description {
-	font-family: Arial;
 	color: white;
 	font-size: 18px;
 }
 
 @media screen and (min-width: 1600px) {
-	#pfp {
-		width: 250px;
-		height: 250px;
-		border-radius: 50%;
-		padding-top: 0px;
-	}
 
-	#infoBox {
-		background-color: rgb(30, 30, 30);
-		padding-left: 300px;
-		padding-right: 60px;
-	}
-
-	#imageBox {
-		background-color: rgb(30, 30, 30);
-		padding-right: 300px;
-	}
 }
