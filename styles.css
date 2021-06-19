@@ -12,6 +12,7 @@ body {
 	line-height: 1.75;
 }
 
+
 /* Header */
 #landingPage {
 	background-image: url(./images/coding.jpg);
@@ -26,17 +27,27 @@ body {
 	padding:  0px 0px;
 }
 
-#landingPage img {
+#headingContainer {
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	display: flex;
+	padding: 0px 0px;
+}
+
+#headingContainer div {
+	padding: 30px 30px;
+}
+
+#headingContainer img {
 	width: 200px;
 	height: 200px;
 }
 
-#landingPage h2 {
+#headingContainer h2 {
 	color: rgb(255, 235, 133);
 	line-height: 1.1;
 }
 
-#landingPage h1 {
+#headingContainer h1 {
 	font-size: 30px;
 	width: fit-content;
 	white-space: nowrap;
@@ -58,38 +69,40 @@ body {
 	to{border-right-color: transparent;}
 }
 
-#landingPage p {
+#headingContainer p {
 	color: rgb(128, 128, 128);
 }
 
-#landingPage .button {
-	text-decoration: none;
-	border: rgb(255, 235, 133) 2px solid;
-	color: white;
-	padding: 5px 10px;
-	border-radius: 10px;
-}
-
-#landingPage .button:hover {
-	background-color: rgb(255, 235, 133);
-}
-
-
-#heading-container {
-	background-color: rgba(0, 0, 0, 0.4);
-	display: flex;
-	padding: 0px 0px;
-}
-
-#heading-container div {
-	padding: 30px 30px;
-}
-
-#heading-container #links {
+#headingContainer #links {
 	text-align: left;
 	padding: 20px 0px;
 }
 
+#headingContainer .button {
+	text-decoration: none;
+	border: rgb(255, 235, 133) 2px solid;
+	color: white;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	border-radius: 10px;
+}
+
+#headingContainer .button:hover {
+	background-color: rgba(255, 235, 133, 0.5);
+}
+
+#chevron {
+	position: absolute;
+	margin-top: 95.5vh;
+}
+
+#chevron img {
+	background-color: rgb(255, 235, 133);
+	border-radius: 10px;
+	padding: 10px 10px;
+	width: 5vw;
+	height: 5vh;
+}
 
 /* Sections */
 .flex-container {
@@ -105,26 +118,30 @@ body {
 
 /* Mobile Device Compatibility */
 @media(max-width: 768px) {
-	#heading-container {
-		display: block;
-		padding: 30px 0px;
-	}
-
-	#heading-container div {
-		padding: 0px 30px;
-	}
-
-	#heading-container #links {
-		text-align: center;
-		padding: 20px 0px;
-	}
-
-
 	#landingPage{
 	text-align: center;
 	}
 
-	#landingPage h1 {
+
+	#headingContainer {
+		display: block;
+		padding: 30px 0px;
+	}
+
+	#headingContainer div {
+		padding: 0px 30px;
+	}
+
+	#headingContainer h1 {
+		margin: 0 auto;
+	}
+
+	#headingContainer #links {
+		text-align: center;
+		padding: 20px 0px;
+	}
+
+	#headingContainer h1 {
 		margin: 0 auto;
 	}
 
