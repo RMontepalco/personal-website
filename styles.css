@@ -3,15 +3,16 @@
 	margin: 0px;
 }
 
-/* Body  */
+/* Body */
 body {
 	background-color: black;
 	font-family: Arial;
+	font-size: 18px;
 	color: white;
 	line-height: 1.75;
 }
 
-/* Header  */
+/* Header */
 #landingPage {
 	background-image: url(./images/coding.jpg);
 	background-size: cover;
@@ -21,8 +22,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	padding:  0px 25px;
+	text-align: left;
+	padding:  0px 0px;
 }
 #landingPage img {
 	width: 200px;
@@ -30,6 +31,9 @@ body {
 }
 #landingPage h2 {
 	color: rgb(255, 235, 133);
+	line-height: 1;
+}
+#landingPage h1 {
 }
 #landingPage p {
 	color: rgb(128, 128, 128);
@@ -41,38 +45,52 @@ body {
 	padding: 5px 10px;
 	border-radius: 10px;
 }
-
-/* Info Container  */
-#infoContainer {
-	display: grid;
-	grid-template-columns: auto auto;
+#landingPage .button:hover {
+	background-color: rgb(255, 235, 133);
 }
 
-#infoBox {
-	background-color: rgb(30, 30, 30);
-	padding-left: 60px;
+#heading-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	padding: 0px 0px;
+}
+#heading-container div {
+	padding: 30px 30px;
+}
+#heading-container #links {
+	text-align: left;
+	padding: 20px 0px;
 }
 
-#imageBox {
-	background-color: rgb(30, 30, 30);
-	padding-right: 60px;
+/* Sections */
+.flex-container {
+		background-color: rgb(40, 40, 40);
+		display: flex;
+	}
+.flex-container div {
+	flex-basis: 50%;
+	padding: 40px 40px;
 }
 
-#blank {
-	width: 350px;
-	height: 250px;
-	padding: 60px;
-}
+/* Mobile Device Compatibility */
+@media(max-width: 768px) {
+	#heading-container {
+		display: block;
+		padding: 30px 0px;
+	}
+	#heading-container div {
+		padding: 0px 30px;
+	}
+	#heading-container #links {
+		text-align: center;
+		padding: 20px 0px;
+	}
 
-#subheading {
-	color: rgb(255, 235, 133);
-}
+	#landingPage{
+	text-align: center;
+	}
 
-#description {
-	color: white;
-	font-size: 18px;
-}
-
-@media screen and (min-width: 1600px) {
-
+	.flex-container {
+		display: block;
+	}
 }
