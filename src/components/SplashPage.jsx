@@ -1,3 +1,7 @@
+import envelopeFill from '/envelope-fill.svg'
+import linkedIn from '/linkedin.svg'
+import picture from '/picture.png'
+
 export default function SplashPage() {
 	return (
 		<div className="splash-page">
@@ -9,11 +13,15 @@ export default function SplashPage() {
 					develop exceptional software solutions.
 				</p>
 				<div>
-					<a href="">Email</a>
-					<a href="">LinkedIn</a>
+					{/*
+						TO DO: Do something about these spaces because I wanted to 
+						make both of these buttons the same width
+					*/}
+					<a href="">&nbsp;&nbsp;<img src={envelopeFill}/>&nbsp;&nbsp;Email&nbsp;&nbsp;</a>
+					<a href=""><img src={linkedIn}/>&nbsp;&nbsp;LinkedIn</a>
 				</div>
 			</div>
-			<img src="../../public/picture.png"/>
+			<img className="picture" src={picture}/>
 		</div>
 	)
 }

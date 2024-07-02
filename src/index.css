@@ -5,6 +5,7 @@
 /* All elements */
 * {
   margin: 0;
+  padding: 0;
 
   /* Font "Inter" from https://fonts.google.com/ */
   font-family: "Inter", sans-serif;
@@ -47,8 +48,8 @@ a {
 /* SplashPage */
 /*
   TO DO: Add shapes to background
-  TO DO: Get royalty-free icons for buttons
   TO DO: Add box shadow under elements
+  TO DO: Fix vh issue for different screen sizes
 */
 .splash-page {
   display: flex;
@@ -87,7 +88,7 @@ a {
   color: #FFFFFF;
   font-weight: 700;
 }
-.splash-page img {
+.picture {
   width: 300px;
   height: 300px;
   border: 10px solid #2B3742;
