@@ -4,9 +4,15 @@ import SplashPage from './components/SplashPage/SplashPage'
 
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <SplashPage />
+    <div className="app">
+      <div className="screen">
+        <Navbar />
+        <SplashPage />
+      </div>
+      <div className="screen">
+        <Navbar />
+        <SplashPage />
+      </div>
     </div>
   )
 }

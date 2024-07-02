@@ -5,12 +5,24 @@
   /* Font "Inter" from https://fonts.google.com/ */
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 
 a {
   text-decoration: none;
 }
+
+/* Fullscreen page scrolling */
+/*
+.app {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.screen {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+*/
