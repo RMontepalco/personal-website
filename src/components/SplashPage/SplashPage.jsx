@@ -1,3 +1,4 @@
+import './SplashPage.css'
 import envelopeFill from '/envelope-fill.svg'
 import linkedIn from '/linkedin.svg'
 import picture from '/picture.png'
