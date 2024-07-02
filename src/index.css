@@ -1,3 +1,8 @@
+/*
+  TO DO (maybe): Separate styles based on component
+*/
+
+/* All elements */
 * {
   margin: 0;
 
@@ -10,12 +15,11 @@
     "slnt" 0;
 }
 
-#root {
-  /* display: flex;
-  justify-content: center; */
+a {
+  text-decoration: none;
 }
 
-
+/* Navbar */
 /*
   TO DO: Add media query to transform navbar elements into
   drop-down menu for mobile
@@ -28,17 +32,65 @@
   height: 120px;
   background-color: #1D252C;
 }
-
 .navbar p {
   margin-right: auto;
   font-size: 1.25rem;
   font-weight: 800;
   color: #FFFFFF;
 }
-
 .navbar a {
   font-size: 1.125rem;
   font-weight: 700;
-  text-decoration: none;
   color: #C9C9C9;
+}
+
+/* SplashPage */
+/*
+  TO DO: Add shapes to background
+  TO DO: Get royalty-free icons for buttons
+  TO DO: Add box shadow under elements
+*/
+.splash-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 5% 0% 5%;
+  gap: 10%;
+  height: 86.8vh; /* temporary? */
+  background-color: #6A7884;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 400px;
+}
+.summary h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.summary h1 span {
+  font-weight: 800;
+  color: #EFE7BA;
+}
+.summary p {
+  font-weight: 500;
+  color: #C9C9C9;
+}
+/* TO DO: Figure out the button background situation */
+.summary a {
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 10px 25px 10px 25px;
+  background-color: #2B3742;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.splash-page img {
+  width: 300px;
+  height: 300px;
+  border: 10px solid #2B3742;
+  border-radius: 300px 60px 300px 300px;
+  background-color: #2B3742;
 }

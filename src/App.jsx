@@ -1,10 +1,11 @@
 import Navbar from './components/Navbar'
+import SplashPage from './components/SplashPage'
 
 export default function App() {
   return (
     <div>
-    <Navbar />
-      <p>The beginning of my personal website using ReactJS and Vite.</p>
+      <Navbar />
+      <SplashPage />
     </div>
   )
 }
