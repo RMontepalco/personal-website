@@ -11,8 +11,34 @@
 }
 
 #root {
+  /* display: flex;
+  justify-content: center; */
+}
+
+
+/*
+  TO DO: Add media query to transform navbar elements into
+  drop-down menu for mobile
+*/
+.navbar {
   display: flex;
-  height: 100vh;
-  justify-content: center;
+  padding: 0% 10% 0% 10%;
+  gap: 5%;
   align-items: center;
+  height: 120px;
+  background-color: #1D252C;
+}
+
+.navbar p {
+  margin-right: auto;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.navbar a {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #C9C9C9;
 }
