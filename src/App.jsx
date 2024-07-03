@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import SplashPage from './components/SplashPage/SplashPage'
 import AboutMePage from './components/AboutMePage/AboutMePage'
+import SkillsPage from './components/SkillsPage/SkillsPage'
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
       </div>
       <div className="page">
         <AboutMePage />
+      </div>
+      <div className="page">
+        <SkillsPage />
       </div>
     </div>
   )

@@ -18,11 +18,7 @@ export default function AboutMePage() {
 						my efforts to a growth-oriented company.
 					</p>
 				</div>
-				<div>
-					
-				</div>
 			</div>
-			
 		</div>
 	)
 }
