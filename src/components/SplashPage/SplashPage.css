@@ -6,29 +6,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0% 5% 0% 5%;
   gap: 10%;
   height: 90vh;
   background-color: #3E4A54;
 }
+
 .summary {
   display: flex;
   flex-direction: column;
   gap: 30px;
   width: 400px;
 }
-.summary h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #FFFFFF;
-}
 .summary h1 span {
   font-weight: 800;
   color: #EFE7BA;
-}
-.summary p {
-  font-weight: 500;
-  color: #C9C9C9;
 }
 /* TO DO: Figure out the button background situation */
 .summary a {
@@ -39,6 +30,7 @@
   color: #FFFFFF;
   font-weight: 700;
 }
+
 .picture {
   width: 300px;
   height: 300px;

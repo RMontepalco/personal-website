@@ -1,0 +1,20 @@
+.about-me-page {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3E4A54;
+}
+
+.content {
+	display: flex;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	text-align: right;
+	width: 425px;
+}
