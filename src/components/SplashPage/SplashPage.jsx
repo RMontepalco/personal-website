@@ -1,7 +1,7 @@
 import './SplashPage.css'
 import envelopeFill from '/envelope-fill.svg'
 import linkedIn from '/linkedin.svg'
-import picture from '/picture.png'
+import profilePicture from '/profile-picture.png'
 
 export default function SplashPage() {
 	return (
@@ -22,7 +22,7 @@ export default function SplashPage() {
 					<a href=""><img src={linkedIn}/>&nbsp;&nbsp;LinkedIn</a>
 				</div>
 			</div>
-			<img className="picture" src={picture}/>
+			<img className="profile-picture" src={profilePicture}/>
 		</div>
 	)
 }

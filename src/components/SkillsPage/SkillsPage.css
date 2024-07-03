@@ -1,14 +1,42 @@
+/*
+  TO DO: Make the page layout appear more cohesive
+*/
 .skills-page {
   display: flex;
   flex-direction: column;
-  gap: 20%;
+  gap: 120px;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #3E4A54;
 }
 
-.images {
+.skills-text {
   display: flex;
-  gap: 75px;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.technical-skills {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  gap: 10%;
+}
+
+.front-end, .back-end {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #2B3742;
+}
+
+.front-end-images, .back-end-images {
+  display: flex;
+  gap: 30px;
 }
