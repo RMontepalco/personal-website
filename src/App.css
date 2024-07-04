@@ -14,28 +14,48 @@ h1 {
   font-weight: 700;
   color: #FFFFFF;
 }
+
 h2 {
   font-size: 2rem;
   font-weight: 600;
   color: #FFFFFF;
 }
+
 p {
   font-size: 1rem;
   font-weight: 500;
   color: #C9C9C9;
 }
+
 a {
+  font-size: 1rem;
   text-decoration: none;
   color: #C9C9C9;
 }
 
-/* Fullscreen page scrolling */
 .app {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
 }
+
 .page {
   scroll-snap-align: start;
   height: 100vh;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 15px;
+  padding: 10px 25px 10px 25px;
+  width: 100px;
+  background-color: #2B3742;
+  color: #FFFFFF;;
+}
+
+.button p {
+  font-weight: 700;
+  color: #FFFFFF;
 }
