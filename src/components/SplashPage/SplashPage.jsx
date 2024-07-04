@@ -13,11 +13,7 @@ export default function SplashPage() {
 					in full-stack development to design and
 					develop exceptional software solutions.
 				</p>
-				<div>
-					{/*
-						TO DO: Do something about these spaces because I wanted to 
-						make both of these buttons the same width
-					*/}
+				<div className="splash-buttons">
 					<a href="">&nbsp;&nbsp;<img src={envelopeFill}/>&nbsp;&nbsp;Email&nbsp;&nbsp;</a>
 					<a href=""><img src={linkedIn}/>&nbsp;&nbsp;LinkedIn</a>
 				</div>

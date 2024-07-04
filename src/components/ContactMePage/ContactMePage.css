@@ -1,0 +1,22 @@
+.contact-me-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #3E4A54;
+}
+
+.contact-me-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-me-buttons a {
+  border-radius: 15px;
+  padding: 10px 25px 10px 25px;
+  background-color: #2B3742;
+  color: #FFFFFF;
+  font-weight: 700;
+}

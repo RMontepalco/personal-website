@@ -22,20 +22,22 @@ export default function SkillsPage() {
 			</div>
 			<div className="technical-skills">
 				<div className="front-end">
+					<h2>Front-End</h2>
 					<div className="front-end-images">
 						<img src={react}/>
 						<img src={html}/>
 						<img src={css}/>
 					</div>
-					<p>Java • Python • SQL</p>
+					<p>ReactJS • HTML • CSS</p>
 				</div>
 				<div className="back-end">
+					<h2>Back-End</h2>
 					<div className="back-end-images">
 						<img src={java}/>
 						<img src={python}/>
 						<img src={sql}/>
 					</div>
-					<p>ReactJS • HTML • CSS</p>
+					<p>Java • Python • SQL</p>
 				</div>
 			</div>
 		</div>
