@@ -4,9 +4,9 @@
 .contact-me-page {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
   align-items: center;
+  gap: 30px;
   height: 90vh;
   background-color: #3E4A54;
 }

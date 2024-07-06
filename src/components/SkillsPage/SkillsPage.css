@@ -5,9 +5,9 @@
 .skills-page {
   display: flex;
   flex-direction: column;
-  gap: 120px;
   justify-content: center;
   align-items: center;
+  gap: 15%;
   height: 100vh;
   background-color: #3E4A54;
 }
@@ -15,9 +15,9 @@
 .skills-text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   text-align: center;
-  width: 50%;
+  gap: 30px;
+  width: 40%;
 }
 
 .technical-skills {
@@ -29,9 +29,9 @@
 
 .front-end, .back-end {
   display: flex;
+  text-align: center;
   flex-direction: column;
   gap: 30px;
-  text-align: center;
   border-radius: 15px;
   padding: 30px;
   background-color: #2B3742;
