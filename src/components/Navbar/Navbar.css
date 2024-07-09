@@ -23,12 +23,13 @@
   .navbar {
     flex-wrap: wrap;
     gap: 3%;
-    padding: 0% 0% 0% 0%;
+    padding: 0% 3% 0% 3%;
   }
 
   .navbar h1 {
     display: none;
   }
+
   .navbar a {
     font-size: 1.0625rem;
   }

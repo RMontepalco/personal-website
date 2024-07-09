@@ -18,6 +18,7 @@ export default function App() {
         <Navbar />
         <SplashPage />
       </div>
+
       <div className="page" id="about">
         <AboutMePage />
       </div>

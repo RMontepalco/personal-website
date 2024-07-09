@@ -14,6 +14,7 @@ export default function Navbar() {
       <a href="#skills">Skills</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
+      
     </nav>
   )
 }
