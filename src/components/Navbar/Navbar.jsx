@@ -6,6 +6,7 @@ export default function Navbar() {
       <h1>RMontepalco</h1>
 
       {/*
+        TO DO: Create drop-down menu for mobile
         TO DO: Add scrolling animation to each page
       */}
       <a href="#home">Home</a>

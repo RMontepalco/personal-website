@@ -1,6 +1,5 @@
 /*
   TO DO: Add svg shapes to background
-  TO DO: Make image responsive
 */
 .about-me-page {
   display: flex;
@@ -8,7 +7,7 @@
   align-items: center;
   gap: 10%;
   height: 100vh;
-  background-color: #3E4A54;
+  background-color: #27313B;
 }
 
 .about-me-text {

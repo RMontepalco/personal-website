@@ -11,7 +11,7 @@ export default function SkillsPage() {
   return (
     <div className="skills-page">
       <div className="skills-text">
-        <h1>What I do</h1>
+        <h1>What I <span className="highlight">Do</span></h1>
         <p>
           I have a deep understanding of the software development life cycle, including
           requirements analysis, design, implementation, testing, deployment, and maintenance.

@@ -1,7 +1,10 @@
+/*
+  TO DO: Add svg shapes to background
+*/
 .portfolio-page {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #3E4A54;
+  background-color: #27313B;
 }

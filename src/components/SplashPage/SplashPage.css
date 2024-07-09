@@ -1,12 +1,12 @@
-/*
-  TO DO: Add svg shapes to background
-*/
 .splash-page {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5%;
   height: 90vh;
+  background-image: url('/layered-waves-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-color: #3E4A54;
 }
 
@@ -17,27 +17,42 @@
   width: 25%;
 }
 
-.summary span {
-  font-weight: 800;
-  color: #EFE7BA;
-}
-
 .summary p {
   max-width: 400px;
 }
 
 .splash-buttons {
   display: flex;
-  gap: 5%;
+  gap: 10px;
 }
 
-/*
-  TO DO: Make profile picture responsive
-*/
 .profile-picture {
   width: 300px;
   height: 300px;
   border: 10px solid #2B3742;
   border-radius: 300px 60px 300px 300px;
   background-color: #2B3742;
+}
+
+@media (max-width: 828px) {
+  .splash-page {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .summary {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .splash-buttons {
+    gap: 10px;
+  }
+
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    margin-top: 5%;
+  }
 }
