@@ -1,12 +1,10 @@
-/*
-  TO DO: Add svg shapes to background
-*/
 .about-me-page {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10%;
   height: 100vh;
+  padding: 0% 15% 0% 15%;
   background-color: #27313B;
 }
 
@@ -14,7 +12,32 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  text-align: right;
-  width: 30%;
   max-width: 425px;
+}
+
+.grad-photo {
+  width: 40%;
+  aspect-ratio: 8/9;
+  object-fit: cover;
+  max-width: 400px;
+  border-radius: 30px;
+  background-color: #2B3742;
+}
+
+@media (max-width: 828px) {
+  .about-me-page {
+    flex-direction: column-reverse;
+    gap: 5%;
+    padding: 0% 3% 0% 3%;
+  }
+
+  .about-me-text {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .grad-photo {
+    width: 70%;
+  }
 }

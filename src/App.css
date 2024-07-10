@@ -38,7 +38,7 @@ a {
 }
 
 .app {
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   scrollbar-width: none;
   height: 100vh;

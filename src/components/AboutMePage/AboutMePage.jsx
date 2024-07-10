@@ -1,10 +1,10 @@
 import './AboutMePage.css'
-import mortarboardFill from '/mortarboard-fill.svg'
+import gradPhoto from '/grad-photo.jpg'
 
 export default function AboutMePage() {
   return (
     <div className="about-me-page">
-      <img src={mortarboardFill} alt="Mortarboard Fill"/>
+      <img className="grad-photo" src={gradPhoto} alt="Grad Photo"/>
       <div className="about-me-text">
         <h1>Who I <span className="highlight">Am</span></h1>
         <p>
