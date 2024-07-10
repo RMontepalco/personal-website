@@ -1,3 +1,6 @@
+/*
+  TO DO: Add svg shapes to background
+*/
 .about-me-page {
   display: flex;
   justify-content: center;
@@ -34,7 +37,6 @@
   .about-me-text {
     align-items: center;
     text-align: center;
-    width: 90%;
   }
 
   .grad-photo {

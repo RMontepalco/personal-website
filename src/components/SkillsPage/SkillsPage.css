@@ -1,17 +1,19 @@
 /*
   TO DO: Add svg shapes to background
-  TO DO: Make the page layout appear more cohesive
 */
 .skills-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15%;
+  text-align: center;
+  gap: 30px;
   height: 100vh;
+  padding: 0% 15% 0% 15%;
   background-color: #27313B;
 }
 
+/*
 .skills-text {
   display: flex;
   flex-direction: column;
@@ -19,25 +21,41 @@
   gap: 30px;
   width: 40%;
 }
+*/
 
-.technical-skills {
+.skills {
   display: flex;
   justify-content: center;
-  width: 50%;
-  gap: 10%;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
 }
 
-.front-end, .back-end {
+.skill {
   display: flex;
-  text-align: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 30px;
   border-radius: 15px;
   padding: 30px;
   background-color: #2B3742;
 }
 
-.front-end-images, .back-end-images {
+.images {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.images img {
+  width: 27%;
+}
+
+@media (max-width: 828px) {
+  .skills-page {
+    padding: 0% 3% 0% 3%;
+  }
 }

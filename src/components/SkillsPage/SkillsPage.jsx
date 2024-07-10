@@ -10,8 +10,10 @@ import sql from '/filetype-sql.svg'
 export default function SkillsPage() {
   return (
     <div className="skills-page">
+      <h1>What I <span className="highlight">Do</span></h1>
+
+      {/*
       <div className="skills-text">
-        <h1>What I <span className="highlight">Do</span></h1>
         <p>
           I have a deep understanding of the software development life cycle, including
           requirements analysis, design, implementation, testing, deployment, and maintenance.
@@ -20,19 +22,21 @@ export default function SkillsPage() {
           from all organizational levels.
         </p>
       </div>
-      <div className="technical-skills">
-        <div className="front-end">
+      */}
+
+      <div className="skills">
+        <div className="skill">
           <h2>Front-End</h2>
-          <div className="front-end-images">
+          <div className="images">
             <img src={react}/>
             <img src={html}/>
             <img src={css}/>
           </div>
           <p>ReactJS • HTML • CSS</p>
         </div>
-        <div className="back-end">
+        <div className="skill">
           <h2>Back-End</h2>
-          <div className="back-end-images">
+          <div className="images">
             <img src={java}/>
             <img src={python}/>
             <img src={sql}/>
