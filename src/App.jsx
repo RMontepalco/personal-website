@@ -13,6 +13,7 @@ export default function App() {
 
       {/*
         TO DO: Add scrolling animation to each page
+        TO DO: Remove fullscreen scrolling
       */}
       <div className="page" id="home">
         <Navbar />
@@ -31,7 +32,6 @@ export default function App() {
         <ContactMePage />
         <Footer />
       </div>
-
     </div>
   )
 }

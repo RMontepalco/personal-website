@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  aspect-ratio: 1/1.5;
+  border-radius: 30px;
+  background-color: #2B3742;
+}
+
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  height: 50%;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 80%;
+  height: 40%;
+  padding: 10%;
+}
+
+/*
+  TO DO: Adjust card size for different screen sizes
+*/
+@media (max-width: 828px) {
+  .card {
+    width: 40%;
+  }
+}

@@ -1,3 +1,7 @@
+/*
+  TO DO: Create variables for color codes and use them across entire website
+  TO DO: Remove fullscreen scrolling
+*/
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #FFFFFF;
 }
