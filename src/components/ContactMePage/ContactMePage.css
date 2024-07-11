@@ -19,7 +19,7 @@
   text-align: center;
   gap: 50px;
   border-radius: 30px;
-  padding: 5% 10% 5% 10%;
+  padding: 40px 80px 40px 80px;
   background-color: #2B3742;
 }
 
@@ -31,11 +31,12 @@
 
 @media (max-width: 828px) {
   .contact-me-page {
-    padding: 0% 3% 0% 3%;
+    padding: 3%;
   }
 
   .contact-me-text {
     gap: 30px;
+    padding: 5% 10% 5% 10%;
   }
 
   .contact-me-buttons {

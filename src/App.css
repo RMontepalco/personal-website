@@ -1,10 +1,11 @@
 /*
   TO DO: Create variables for color codes and use them across entire website
-  TO DO: Remove fullscreen scrolling
+  TO DO: Create a nice looking scrollbar
 */
 * {
   margin: 0;
   padding: 0;
+  scrollbar-width: none;
 
   /* Font "Inter" from https://fonts.google.com/ */
   font-family: "Inter", sans-serif;
@@ -42,15 +43,9 @@ a {
 }
 
 .app {
-  /* scroll-snap-type: y mandatory; */
-  overflow-y: scroll;
-  scrollbar-width: none;
-  height: 100vh;
-}
-
-.page {
-  scroll-snap-align: start;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button {

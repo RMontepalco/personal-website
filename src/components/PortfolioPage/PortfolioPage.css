@@ -8,8 +8,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
-  padding: 0% 10% 0% 10%;
+  padding: 10%;
   background-color: #27313B;
 }
 
@@ -17,13 +16,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 5%;
+  column-gap: 20px;
   row-gap: 20px;
-  width: 100%;
 }
 
 @media (max-width: 828px) {
   .portfolio-page {
-    padding: 0% 3% 0% 3%;
+    padding: 3%;
   }
 }

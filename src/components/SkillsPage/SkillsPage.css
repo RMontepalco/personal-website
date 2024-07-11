@@ -8,8 +8,7 @@
   align-items: center;
   text-align: center;
   gap: 30px;
-  height: 100vh;
-  padding: 0% 10% 0% 10%;
+  padding: 10%;
   background-color: #27313B;
 }
 
@@ -41,7 +40,7 @@
   text-align: center;
   gap: 30px;
   border-radius: 30px;
-  padding: 5%;
+  padding: 30px;
   background-color: #2B3742;
 }
 
@@ -58,6 +57,6 @@
 
 @media (max-width: 828px) {
   .skills-page {
-    padding: 0% 3% 0% 3%;
+    padding: 3%;
   }
 }
