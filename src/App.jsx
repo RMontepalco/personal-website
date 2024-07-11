@@ -24,8 +24,6 @@ export default function App() {
       <div className="page" id="skills">
         <SkillsPage />
       </div>
-
-      {/*
       <div className="page" id="portfolio">
         <PortfolioPage />
       </div>
@@ -33,7 +31,6 @@ export default function App() {
         <ContactMePage />
         <Footer />
       </div>
-      */}
 
     </div>
   )

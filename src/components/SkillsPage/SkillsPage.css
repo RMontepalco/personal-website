@@ -9,7 +9,7 @@
   text-align: center;
   gap: 30px;
   height: 100vh;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 10% 0% 10%;
   background-color: #27313B;
 }
 
@@ -25,9 +25,11 @@
 
 .skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  column-gap: 5%;
+  row-gap: 10px;
   width: 100%;
 }
 
@@ -38,8 +40,8 @@
   align-items: center;
   text-align: center;
   gap: 30px;
-  border-radius: 15px;
-  padding: 30px;
+  border-radius: 30px;
+  padding: 5%;
   background-color: #2B3742;
 }
 

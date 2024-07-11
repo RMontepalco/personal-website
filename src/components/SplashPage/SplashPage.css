@@ -4,7 +4,7 @@
   align-items: center;
   gap: 5%;
   height: 90vh;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 10% 0% 10%;
   background-image: url('/layered-waves-haikei.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -54,6 +54,7 @@
 
   .splash-buttons {
     justify-content: center;
+    align-items: center;
   }
 
   .profile-picture {

@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+  padding: 0% 10% 0% 10%;
   background-color: #27313B;
 }
 
@@ -17,11 +18,28 @@
   align-items: center;
   text-align: center;
   gap: 50px;
-  border-radius: 15px;
-  padding: 50px 150px 50px 150px;
+  border-radius: 30px;
+  padding: 5% 10% 5% 10%;
   background-color: #2B3742;
 }
 
 .contact-me-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (max-width: 828px) {
+  .contact-me-page {
+    padding: 0% 3% 0% 3%;
+  }
+
+  .contact-me-text {
+    gap: 30px;
+  }
+
+  .contact-me-buttons {
+    justify-content: center;
+    align-items: center;
+  }
+}

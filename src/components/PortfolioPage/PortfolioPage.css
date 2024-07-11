@@ -3,8 +3,43 @@
 */
 .portfolio-page {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
+  padding: 0% 10% 0% 10%;
   background-color: #27313B;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  border-radius: 30px;
+  padding: 4%;
+  background-color: #2B3742;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (max-width: 828px) {
+  .portfolio-page {
+    padding: 0% 3% 0% 3%;
+  }
 }
