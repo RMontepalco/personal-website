@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   aspect-ratio: 1/1.125;
-  width: 310px;
+  max-width: 310px;
   border-radius: 30px;
   background-color: #2B3742;
 }
@@ -29,6 +29,6 @@
 
 @media (max-width: 828px) {
   .card {
-    width: 40%;
+    width: 100%;
   }
 }

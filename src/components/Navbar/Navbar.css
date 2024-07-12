@@ -22,7 +22,7 @@
 @media (max-width: 828px) {
   .navbar {
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 4%;
     padding: 0% 3% 0% 3%;
   }
 

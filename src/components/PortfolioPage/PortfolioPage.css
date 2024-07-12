@@ -16,12 +16,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 20px;
-  row-gap: 20px;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 
 @media (max-width: 828px) {
   .portfolio-page {
-    padding: 3%;
+    padding: 10% 3% 10% 3%;
   }
 }

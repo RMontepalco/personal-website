@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 5%;
   padding: 10%;
   background-color: #27313B;
 }
@@ -30,7 +30,7 @@
   .about-me-page {
     flex-direction: column-reverse;
     gap: 30px;
-    padding: 3%;
+    padding: 10% 3% 10% 3%;
   }
 
   .about-me-text {

@@ -27,8 +27,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 5%;
-  row-gap: 10px;
+  column-gap: 30px;
+  row-gap: 30px;
   width: 100%;
 }
 
@@ -39,6 +39,8 @@
   align-items: center;
   text-align: center;
   gap: 30px;
+  aspect-ratio: 2/1;
+  max-width: 250px;
   border-radius: 30px;
   padding: 30px;
   background-color: #2B3742;
@@ -57,6 +59,10 @@
 
 @media (max-width: 828px) {
   .skills-page {
-    padding: 3%;
+    padding: 10% 3% 10% 3%;
+  }
+
+  .skill {
+    width: 100%;
   }
 }

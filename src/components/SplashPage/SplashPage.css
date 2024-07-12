@@ -17,10 +17,7 @@
   align-items: right;
   text-align: right;
   gap: 30px;
-}
-
-.summary p {
-  max-width: 400px;
+  max-width: 337px;
 }
 
 .splash-buttons {
@@ -32,7 +29,7 @@
 
 .profile-picture {
   aspect-ratio: 1/1;
-  width: 40%;
+  width: 41%;
   max-width: 300px;
   max-height: 300px;
   border: 10px solid #2B3742;

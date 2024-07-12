@@ -6,8 +6,11 @@ export default function Card() {
     <div className="card">
       <img className="card-image" src={placeholderImage} alt="Image"/>
       <div className="card-text">
-        <h2>Project</h2>
-        <p>Description</p>
+        <h2>Project Name</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
       </div>
     </div>
   )
