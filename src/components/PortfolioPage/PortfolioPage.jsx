@@ -1,25 +1,19 @@
 import './PortfolioPage.css'
 import Card from '../Card/Card'
+import portfolioData from './PortfolioData.js'
 
 export default function PortfolioPage() {
+
+  const project = portfolioData.map(project => {
+    // TO DO: Generate ids for component keys
+    return <Card name={project.name} description={project.description} image={project.image}/>
+  })
 
   return (
     <div className="portfolio-page">
       <h1>My <span className="highlight">Work</span></h1>
       <div className="projects">
-
-        {/*
-          TO DO: Create a .js file that stores each project as an object in a list
-        */}
-
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {project}
       </div>
     </div>
   )
