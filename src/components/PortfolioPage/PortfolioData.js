@@ -25,8 +25,8 @@ export default [
   },
   {
     name: "Email Web Application",
-    description: "Angular website which allows users to sends and receives mock emails to each other.",
-    image: "/image.jpg",
+    description: "Angular website where users are able to send and receive mock emails from one client to another.",
+    image: "/email-web-application.png",
     link: "https://github.com/RMontepalco/email-webpage-project"
   }
 ]
