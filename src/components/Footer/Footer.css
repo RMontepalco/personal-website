@@ -1,15 +1,30 @@
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 10vh;
+  gap: 20px;
+  height: 20vh;
   padding: 0% 10% 0% 10%;
   background-color: #1D252C;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
 }
 
 @media (max-width: 828px) {
   .footer {
     padding: 0% 3% 0% 3%;
+  }
+
+  .navbar-items {
+    flex-wrap: wrap;
+    gap: 4%;
   }
 }

@@ -14,13 +14,16 @@ export default function SplashPage() {
           develop exceptional software solutions.
         </p>
         <div className="splash-buttons">
-          <a href="">
+          {/*
+            TO DO: Find a safer alternative to mailto
+          */}
+          <a href="mailto:montepalco.ross@gmail.com">
             <div className="button">
               <img src={envelopeFill}/>
               <p>&nbsp;&nbsp;Email</p>
             </div>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/rmontepalco/">
             <div className="button">
               <img src={linkedIn}/>
               <p>&nbsp;&nbsp;LinkedIn</p>

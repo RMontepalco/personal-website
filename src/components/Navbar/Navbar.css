@@ -14,11 +14,6 @@
   font-weight: 800;
 }
 
-.navbar a {
-  font-size: 1.125rem;
-  font-weight: 700;
-}
-
 @media (max-width: 828px) {
   .navbar {
     flex-wrap: wrap;
@@ -28,9 +23,5 @@
 
   .navbar h1 {
     display: none;
-  }
-
-  .navbar a {
-    font-size: 1.0625rem;
   }
 }

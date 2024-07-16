@@ -1,12 +1,17 @@
+import { useId } from 'react'
 import './PortfolioPage.css'
 import Card from '../Card/Card'
 import portfolioData from './PortfolioData.js'
 
 export default function PortfolioPage() {
-
   const project = portfolioData.map(project => {
-    // TO DO: Generate ids for component keys
-    return <Card name={project.name} description={project.description} image={project.image}/>
+    return <Card
+      key={useId()}
+      name={project.name}
+      description={project.description}
+      image={project.image}
+      link={project.link}
+    />
   })
 
   return (

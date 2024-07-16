@@ -11,19 +11,6 @@ export default function SkillsPage() {
   return (
     <div className="skills-page">
       <h1>What I <span className="highlight">Do</span></h1>
-
-      {/*
-      <div className="skills-text">
-        <p>
-          I have a deep understanding of the software development life cycle, including
-          requirements analysis, design, implementation, testing, deployment, and maintenance.
-          I am knowledgeable in agile methodologies to adapt to various work environments while
-          adhering to deadlines. I have exceptional interpersonal skills to work with people
-          from all organizational levels.
-        </p>
-      </div>
-      */}
-
       <div className="skills">
         <div className="skill">
           <h2>Front-End</h2>

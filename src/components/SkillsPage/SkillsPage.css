@@ -12,16 +12,6 @@
   background-color: #27313B;
 }
 
-/*
-.skills-text {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 30px;
-  width: 40%;
-}
-*/
-
 .skills {
   display: flex;
   flex-wrap: wrap;

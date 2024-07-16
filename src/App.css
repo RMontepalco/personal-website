@@ -37,7 +37,8 @@ p {
 }
 
 a {
-  font-size: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
   text-decoration: none;
   color: #D9D9D9;
 }
@@ -67,4 +68,10 @@ a {
 .highlight {
   font-weight: 800;
   color: #EFE7BA;
+}
+
+@media (max-width: 828px) {
+  a {
+    font-size: 1.0625rem;
+  }
 }

@@ -10,18 +10,26 @@ import Footer from './components/Footer/Footer'
 export default function App() {
   return (
     <div className="app">
-
       {/*
         TO DO: Add scrolling animation to each page
       */}
-
-      <Navbar />
-      <SplashPage />
-      <AboutMePage />
-      <SkillsPage />
-      <PortfolioPage />
-      <ContactMePage />
-      <Footer />
+      <div id="home">
+        <Navbar />
+        <SplashPage />
+      </div>
+      <div id="about">
+        <AboutMePage />
+      </div>
+      <div id="skills">
+        <SkillsPage />
+      </div>
+      <div id="portfolio">
+        <PortfolioPage />
+      </div>
+      <div id="contact">
+        <ContactMePage />
+        <Footer />
+      </div>
     </div>
   )
 }
